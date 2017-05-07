@@ -1,0 +1,128 @@
+/* responsive css */
+@media screen and (min-width:320px) and (max-width:520px){
+  p.logo-text {
+    text-align: center;
+    font-size: 40px !important;
+  }
+}
+@media screen and (max-width:960px){
+  .top-image-holder {
+    margin-top: 0px !important;
+  }
+  .row.content {
+    text-align: center;
+  }
+  header{
+    display: none;
+  }
+  .row.content p {
+    font-size: 15px ;
+    letter-spacing: 1px !important;
+  }
+  .top-footer{
+    display: none;
+  }
+  .container.bottom-footer {
+    text-align: center !important;
+    font-size: 12px !important;
+  }
+  .impressum {
+    text-align: center;
+  }
+  p.logo-text {
+    text-align: center;
+    font-size: 70px ;
+  }
+}
+html #wpadminbar {
+    height: 46px;
+    min-width: 300px;
+    display: none;
+  }
+
+@media only screen and (min-width:1024px) and (max-width:1279px){
+  .row.content p {
+    font-size: 20px;
+  }
+  .row.content h2 {
+    margin: 10px 0;
+  }
+  .top-image-holder {
+    margin-top: -50px ;
+  }
+}
+
+@media only screen and (min-width:1280px ) and (max-width:1359px){
+  .top-image-holder {
+    margin-top: -60px;
+  }
+  .row.content h2 {
+    margin: 10px 0;
+  }
+  .row.content p {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 1360px) and (max-width:1365px){
+  .top-image-holder {
+    margin-top: -90px;
+  }
+  .row.content h2 {
+    margin: 10px 0;
+  }
+  .row.content p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1366px) and (max-width:1439px){
+  .top-image-holder {
+    margin-top: -90px;
+  }
+  .row.content h2 {
+    margin: 10px 0;
+  }
+  .row.content p {
+    font-size: 20px ;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width:1599px){
+  .top-image-holder {
+    margin-top: -50px;
+  }
+  .row.content h2 {
+    margin: 20px 0;
+  }
+  .row.content p {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width:1600px) and (max-width:1679px){
+  .top-image-holder {
+    margin-top: 0px;
+  }
+  .row.content h2 {
+    margin: 20px 0;
+  }
+  .row.content p {
+    font-size: 22px;
+  }
+  .row.content {
+    background: #766661;
+    padding: 80px 0 100px;
+    margin-bottom: -1px;
+  }
+}
+@media only screen and (min-width: 1680px) and (max-width: 1920px ){
+  .top-image-holder {
+    margin-top: 0px !important;
+  }
+  .row.content {
+    background: #766661;
+    padding: 110px 0 100px;
+    margin-bottom: -1px;
+  }
+}
