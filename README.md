@@ -1,0 +1,1 @@
+# isabelleschneiter-wp theme
